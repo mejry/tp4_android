@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:background="@drawable/im">
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        />
+    <Button
+        android:id="@+id/b1"
+        android:layout_below="@+id/t1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="OUVRIR URL"/>
+    <EditText
+        android:id="@+id/t2"
+        android:layout_below="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        />
+    <Button
+        android:id="@+id/b2"
+        android:layout_below="@+id/t2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="OUVRIR LOCATION"/>
+    <EditText
+        android:id="@+id/t3"
+        android:layout_below="@id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        />
+    <Button
+        android:id="@+id/b3"
+        android:layout_below="@+id/t3"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="PARTAGER TEXT"/>
+    </LinearLayout>
+</RelativeLayout>
